@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": "eslint:recommended",
+  "overrides": [],
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "globals": {
+    "android": "readonly",
+    "com": "readonly",
+    "Packages": "readonly",
+    "$autojs": "readonly",
+    "androidx": "readonly",
+    "$java": "readonly",
+    "java": "readonly"
+  }
+}
